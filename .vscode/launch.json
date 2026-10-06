@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "1. App",
+      "request": "launch",
+      "mainClass": "com.example.App",
+      "projectName": "my-maven-app"
+    },
+    {
+      "type": "java",
+      "name": "2. Launch Java Program",
+      "request": "launch",
+      "mainClass": ""
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "3. Run Java App (Write Data)",
+      "request": "launch",
+      "mainClass": "com.example.App"
+    },
+    {
+      "type": "java",
+      "name": "4. Start HSQLDB GUI Viewer",
+      "request": "launch",
+      "mainClass": "org.hsqldb.util.DatabaseManagerSwing"
+    }
+  ]
+}
